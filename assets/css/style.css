@@ -1,0 +1,12 @@
+button {
+  margin: 5px;
+}
+
+#buttonDisplaySection {
+  margin: 1em;
+}
+
+.gifDisplayArea {
+  display: block;
+  margin: 1em;
+}
