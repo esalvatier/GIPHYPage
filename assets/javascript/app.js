@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  var topics = ["rain", "snow", "flood", "lightening", "tornado", "earthquake", "wind", "hail", "eruptions", "volcano"];
-  var offsets = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  var topics = ["Animaniacs", "Pink and the Brain", "Freakazoid", "Batman Beyond", "Mighty Morphin Power Rangers", "Captain Planet", "Where in the World is Carmen Sandiego"];
+  var offsets = Array(topics.length).fill(0);
   var draw = function () {
     $("#buttonDisplaySection").empty();
     topics.forEach(function (current, i) {
