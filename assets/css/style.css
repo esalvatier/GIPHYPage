@@ -1,3 +1,17 @@
+body {
+  background-image: url("../images/seamless_paper_texture/seamless_paper_texture.png");
+}
+
+h1 {
+  background: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
 button {
   margin: 5px;
 }
@@ -7,6 +21,6 @@ button {
 }
 
 .gifDisplayArea {
-  display: block;
+  background: white;
   margin: 1em;
 }
